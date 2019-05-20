@@ -51,7 +51,7 @@
     "prebuild": "^8.2.1"
   },
   "scripts": {
-    "install": "node ./scripts/install.js || node-gyp rebuild",
+    "install": "node-gyp rebuild",
     "rebuild": "prebuild --compile",
     "prebuild": "detect-libc prebuild",
     "prebuild-ci": "node ./scripts/build.js",
